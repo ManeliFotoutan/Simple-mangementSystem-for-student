@@ -4,7 +4,6 @@
 
 This is a Python-based Student Management System that allows management of students, courses, registrations, scheduling, and student scores. It also generates text reports and displays charts showing academic progress and course enrollment.
 
----
 
 ## Features
 
@@ -27,7 +26,6 @@ This is a Python-based Student Management System that allows management of stude
     - Student academic progress (average scores)
     - Course enrollment numbers
 
----
 
 ## Requirements
 
@@ -40,15 +38,13 @@ Install dependencies:
 pip install matplotlib
 ```
 
----
-
 ## Usage
 
 Run the program:
 
-\`\`\`bash
+```bash
 python student_management_system.py
-\`\`\`
+```
 
 Use the interactive menu to:
 - Create students and courses
@@ -61,8 +57,6 @@ Use the interactive menu to:
 
 Charts will display after exiting.
 
----
-
 ## Code Structure
 
 - `Student` class: manages student info, registrations, scheduling, and scores
@@ -70,7 +64,6 @@ Charts will display after exiting.
 - `StudentManagementSystem` class: main system controller
 - Main script: command-line interactive interface
 
----
 
 ## Notes
 
